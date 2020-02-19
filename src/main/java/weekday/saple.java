@@ -10,7 +10,8 @@ public class saple {
 		ChromeDriver driver=new ChromeDriver();
     driver.get("http://leafground.com/pages/table.html");
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+	//Implicity changed
+	driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 
 }
