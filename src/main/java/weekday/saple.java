@@ -3,9 +3,11 @@ package weekday;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class saple {
-	public static void main(String[] args) {
+	@Test
+	public void saples() {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
     driver.get("http://leafground.com/pages/table.html");
