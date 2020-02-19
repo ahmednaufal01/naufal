@@ -13,7 +13,7 @@ public class saple {
     driver.get("http://leafground.com/pages/table.html");
 	driver.manage().window().maximize();
 	//Implicity changed
-	driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 	}
 
 }
